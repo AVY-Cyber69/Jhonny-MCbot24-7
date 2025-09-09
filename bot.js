@@ -3,8 +3,8 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder')
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: 'FeastMC.mine.bz',
-    port: 26127,
+    host: 'us.zooming.host',
+    port: 25089,
     username: 'Jhonny',
     auth: 'offline',   // change to 'microsoft' if premium
     version: '1.21'
@@ -49,3 +49,4 @@ function createBot() {
 }
 
 createBot()
+
